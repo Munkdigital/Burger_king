@@ -57,8 +57,14 @@ nav ul li a {
     font-size: 15px;
     font-weight: 800;
     border-radius: 5px;
-    border: #CC2200;
+    border-color: #CC2200;
     margin-left: 3%;
+    border-style: solid;
+}
+
+.findrestaurant:hover {
+    background-color: #f5ebdc;
+    color: #CC2200;
 }
 
 .logo {
@@ -111,6 +117,12 @@ nav ul li a {
     margin-top: -110px;
     letter-spacing: 0px;
     border-width: 2px;
+    border-style: solid;
+}
+
+.sevoresmenu:hover {
+    background-color: #ffffff;
+    color: #020301;
 }
 
 .favoritter {
@@ -124,11 +136,64 @@ nav ul li a {
     height: 550px;
 }
 
+.krow {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: -500px;
+    margin-bottom: 150px;
+}
+
+.krow-child {
+    padding: 40px 40px;
+}
+
+.favoritbilleder {
+    height: 150px;
+    background-size: 400px;
+}
+
+.titler {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    width: 80%;
+}
+
 .lokaleburgerking {
     background-color: #d62300;
     height: 500px;
+    padding: 100px;
+}
+
+.findburgerking {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-left: -200px;
+}
+
+.sundae {
+    float: left;
+    margin-top: -120px;
+    margin-left: -420px;
+    height: 550px;
+}
+
+.lokation {
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: #d62300;
+    border: none;
 }
 
 footer {
     height: 180px;
+    padding: 50px;
 }
