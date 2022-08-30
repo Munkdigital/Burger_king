@@ -87,6 +87,7 @@ nav ul li a {
 .findrestaurant:hover {
     background-color: #f5ebdc;
     color: #CC2200;
+    cursor: pointer;
 }
 
 /* Hamburger Menu */
@@ -158,6 +159,7 @@ nav ul li a {
 .sevoresmenu:hover {
     background-color: #ffffff;
     color: #020301;
+    cursor: pointer;
 }
 
 .favoritter {
@@ -214,7 +216,7 @@ nav ul li a {
 .sundae {
     float: left;
     margin-top: -110px;
-    margin-left: -6%;
+    margin-left: -9%;
     height: 510px;
 }
 
@@ -240,9 +242,3 @@ footer {
     background-color: #f5ebdc;
     margin-top: 110px;
 }
-
-/* QUIZ */
-
-.test { 
-    border:red 10px solid; 
-    padding:10px 40px 40px 40px; }
