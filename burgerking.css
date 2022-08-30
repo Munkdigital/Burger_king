@@ -1,9 +1,12 @@
 @font-face {
-    font-family: "flame-sans";
+    font-family: "flame-bold";
     src: url("fonts/Flame-Bold.woff") format("woff");
     src: url("fonts/FlameBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "flame-sans";
     src: url("fonts/FlameSans.otf") format("opentype");
-         
 }
 
 
@@ -98,7 +101,7 @@ nav ul li a {
 .flammegrillet {
     color: #ffffff;
     font-size: 80px;
-    font-family: "flame-sans";
+    font-family: "flame-bold";
     margin-top: 50px;
     font-weight: 800;
     line-height: 110px;
@@ -144,7 +147,7 @@ nav ul li a {
 .favoritter {
     padding-top: 80px;
     color: #502314;
-    font-family: "flame-sans";
+    font-family: "flame-bold";
 }
 
 .voresfavoritter {
