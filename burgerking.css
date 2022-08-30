@@ -87,6 +87,7 @@ nav ul li a {
 .findrestaurant:hover {
     background-color: #f5ebdc;
     color: #CC2200;
+    cursor: pointer;
 }
 
 /* Hamburger Menu */
@@ -153,6 +154,7 @@ nav ul li a {
 .sevoresmenu:hover {
     background-color: #ffffff;
     color: #020301;
+    cursor: pointer;
 }
 
 .favoritter {
