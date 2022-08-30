@@ -116,7 +116,7 @@ nav ul li a {
 
 .underoverskrift {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 20px;
     float: right;
     width: 25%; 
     font-weight: 600;
@@ -125,6 +125,9 @@ nav ul li a {
     margin-right: 25%;
     margin-top: -250px;
     line-height: 30px;
+    text-decoration: none;
+    font-family: "flame-sans";
+    font-weight: 10;
 }
 
 .sevoresmenu {
