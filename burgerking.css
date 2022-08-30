@@ -56,12 +56,12 @@ nav ul li {
 
 nav ul li a {
     color: #020301; 
-    font-size: 18px; 
+    font-size: 16px; 
     padding: 7px 10px;
     border-radius: 2px;
     text-decoration: none;
     font-family: "flame-sans";
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .active {
@@ -73,11 +73,11 @@ nav ul li a {
     color: #ffffff;
     padding: 12px 30px;
     font-size: 15px;
-    font-weight: 800;
     border-radius: 5px;
     border-color: #CC2200;
     margin-left: 3%;
     border-style: solid;
+    font-family: "flame-bold";
 }
 
 .findrestaurant:hover {
@@ -185,7 +185,7 @@ nav ul li a {
     background-color: #d62300;
     height: 500px;
     padding: 100px;
-    font-family: "flame-sans";
+    font-family: "flame-bold";
 }
 
 .findburgerking {
