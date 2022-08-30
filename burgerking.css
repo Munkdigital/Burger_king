@@ -235,11 +235,3 @@ footer {
     background-color: #f5ebdc;
     margin-top: 110px;
 }
-
-/* QUIZ */
-
-.test { 
-    border:red 10px solid; 
-    padding:10px 40px 40px 40px;
-    margin-left: 10%;
-}
