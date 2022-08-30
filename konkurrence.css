@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "flame-bold";
+    src: url("fonts/Flame-Bold.woff") format("woff");
+    src: url("fonts/FlameBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "flame-sans";
+    src: url("fonts/FlameSans.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "flame-regular";
+    src: url("fonts/FlameRegular.otf") format("opentype");
+}
+
+* { padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-color: #f5ebdc;
+    width: 60%;
+    height: 40px;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-width: thin;
+    margin-bottom: 20px;
+}
+
+.fa-solid {
+    margin-top: 15px;
+    margin-left: 820px;
+}
+
+.logind {
+    font-weight: 800;
+    float: right;
+    margin-top: 15px;
+}
+
+nav { 
+    background: #ffffff;
+    width: 100%;
+}
+
+nav ul {
+    float: right; 
+    margin-right: 20%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 7px; 
+}
+
+nav ul li a {
+    color: #502314; 
+    font-size: 16px; 
+    padding: 7px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "flame-sans";
+    font-weight: 600;
+}
+
+.active {
+    display: none;
+}
+
+.findrestaurant {
+    background-color: #CC2200;
+    color: #f5ebdc;
+    padding: 12px 22px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #CC2200;
+    margin-left: 3%;
+    border-style: solid;
+    font-family: "flame-regular";
+}
+
+.findrestaurant:hover {
+    background-color: #f5ebdc;
+    color: #CC2200;
+}
+
+/* Hamburger Menu */
+
+
+
+.logo {
+    margin-bottom: -2%;
+}
+
+
+footer {
+    height: 180px;
+    padding: 50px;
+}
+
+.section1 {
+    height: 600px;
+    background-color: #f5ebdc;
+    margin-top: 110px;
+}
+
+/* QUIZ */
+
+.test { 
+    border:red 10px solid; 
+    padding:10px 40px 40px 40px;
+    margin-left: 10%;
+}
+
+
