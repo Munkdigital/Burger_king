@@ -225,3 +225,9 @@ footer {
     height: 180px;
     padding: 50px;
 }
+
+.section1 {
+    height: 600px;
+    background-color: #f5ebdc;
+    margin-top: 110px;
+}
