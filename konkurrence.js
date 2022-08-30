@@ -2,7 +2,7 @@ var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correc
 var questions = [
     [ "Hvilken kød har Whopper?", "Kylling", "Oksekød", "Svinekød", "B" ],
 	[ "Hvor mange milkshakes kan man få?", "3", "4", "5", "C" ],
-	[ "What is 7 x 3?", "21", "24", "25", "A" ],
+	[ "Hvilken burger koster 29kr?", "Fish King", "Big King jr", "Bacon King", "A" ],
 	[ "Hvor mange dips kan man få?", "8", "10", "12", "C" ]
 ];
 function _(x){
