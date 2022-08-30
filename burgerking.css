@@ -74,14 +74,14 @@ nav ul li a {
 
 .findrestaurant {
     background-color: #CC2200;
-    color: #ffffff;
-    padding: 12px 30px;
-    font-size: 15px;
+    color: #f5ebdc;
+    padding: 12px 22px;
+    font-size: 16px;
     border-radius: 5px;
     border-color: #CC2200;
     margin-left: 3%;
     border-style: solid;
-    font-family: "flame-bold";
+    font-family: "flame-regular";
 }
 
 .findrestaurant:hover {
@@ -133,14 +133,14 @@ nav ul li a {
     border-color: #ffffff;
     border-radius: 5px;
     padding: 12px 30px;
-    font-size: 14px;
-    font-weight: 800;
+    font-size: 16px;
     margin-left: 50%;
     float: left;
     margin-top: -110px;
     letter-spacing: 0px;
     border-width: 2px;
     border-style: solid;
+    font-family: "flame-regular";
 }
 
 .sevoresmenu:hover {
