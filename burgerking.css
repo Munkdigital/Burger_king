@@ -98,9 +98,13 @@ nav ul li a {
     margin-bottom: -2%;
 }
 
-.picss{
+#picss{
 	opacity:0;
 	transition:opacity 1.0s linear 0s;
+    font-family: "flame-regular";
+    color: white;
+    margin-left: 400px;
+    font-size: 20px;
 }
 
 .groenbaggrund {
