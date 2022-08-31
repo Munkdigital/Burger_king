@@ -1,3 +1,4 @@
+
 var picss_i = 0;
 var picss_array = ["god","damn","javascript","sutter","røv"];
 var picss_elem;
