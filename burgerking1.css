@@ -318,11 +318,10 @@ body.dark .search-field i{
 /** nav end **/
 
 section.groenbaggrund {
-    height: 700px;
+    position: relative;
     width: 100%;
-    padding-top: 10%;
-    margin: auto;
-    background-color: #198737;    
+    height: 700px;
+    background-color: #198737;  
 }
 
 img.burger {
@@ -330,22 +329,33 @@ img.burger {
     height: auto;
 }
 
+.burger {
+    position: absolute;
+    top: 120px;
+}
 
 
 
-.flammegrillet {
+
+h1.flammegrillet {
+    position: absolute;
+    right: 140px;
+    top: 120px;
     color: #ffffff;
-    font-size: 80px;
+    font-size: 100px;
     font-family: "flame-bold";
-    margin-top: 50px;
+
     font-weight: 800;
     line-height: 110px;
     float: right;
     text-transform: uppercase;
 }
 
-.underoverskrift {
-    color: #ffffff;
+h2.underoverskrift {
+    position: relative;
+    right: 140px;
+    top: 100px
+    color: ffff;
     font-size: 20px;
     float: right;
     width: 25%; 
