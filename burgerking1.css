@@ -32,7 +32,8 @@
 }
 
 body {
-    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
     background-color: var(--body-color);
 }
 
@@ -316,23 +317,21 @@ body.dark .search-field i{
 
 /** nav end **/
 
-.groenbaggrund {
-    display: block;
-    margin-top: 100px;
-    background-color: #198737;
-    height: 675px;
+section.groenbaggrund {
+    height: 700px;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 10%;
+    margin: auto;
+    background-color: #198737;    
 }
 
-#picss{
-	opacity:0;
-	transition:opacity 1.0s linear 0s;
-    font-family: "flame-regular";
-    color: white;
-    margin-left: 400px;
-    font-size: 20px;
+img.burger {
+    max-width: 100%;
+    height: auto;
 }
+
+
+
 
 .flammegrillet {
     color: #ffffff;
@@ -342,7 +341,6 @@ body.dark .search-field i{
     font-weight: 800;
     line-height: 110px;
     float: right;
-    width: 50%;
     text-transform: uppercase;
 }
 
