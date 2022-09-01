@@ -282,6 +282,10 @@ body.dark .search-field i{
         opacity: 0;
         transition: all 0.3s ease;
     }
+
+    nav.active img.logo.navLogo {
+        opacity: 0;
+    }
     
     .menu .logo-toggle{
         display: block;
@@ -319,4 +323,13 @@ body.dark .search-field i{
     height: 675px;
     width: 100%;
     padding-top: 100px;
+}
+
+#picss{
+	opacity:0;
+	transition:opacity 1.0s linear 0s;
+    font-family: "flame-regular";
+    color: white;
+    margin-left: 400px;
+    font-size: 20px;
 }
