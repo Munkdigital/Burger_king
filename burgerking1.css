@@ -353,24 +353,21 @@ h1.flammegrillet {
 
 h2.underoverskrift {
     position: relative;
-    right: 140px;
-    top: 100px
-    color: ffff;
-    font-size: 20px;
+    right: 400px;
+    top: 380px;
+    width: 35%;
+    color: #fff;
     float: right;
-    width: 25%; 
-    font-weight: 600;
-    padding-top: 20px;
-    margin-bottom: 30px;
-    margin-right: 25%;
-    margin-top: -250px;
-    line-height: 30px;
-    text-decoration: none;
     font-family: "flame-sans";
+    font-size: 20px;
     font-weight: 10;
+    line-height: 30px;
 }
 
-.sevoresmenu {
+button.sevoresmenu {
+    position: relative;
+    right: 170px;
+    top: 600px;
     background-color: #198737;
     color: #ffffff;
     border-color: #ffffff;
@@ -386,7 +383,7 @@ h2.underoverskrift {
     font-family: "flame-regular";
 }
 
-.sevoresmenu:hover {
+button.sevoresmenu:hover {
     background-color: #ffffff;
     color: #020301;
     cursor: pointer;
