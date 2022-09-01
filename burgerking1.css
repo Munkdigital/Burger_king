@@ -1,14 +1,31 @@
+@font-face {
+    font-family: "flame-bold";
+    src: url("fonts/Flame-Bold.woff") format("woff");
+    src: url("fonts/FlameBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "flame-sans";
+    src: url("fonts/FlameSans.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "flame-regular";
+    src: url("fonts/FlameRegular.otf") format("opentype");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "flame-sans";
     /* font-family: .... */
 }
 
 :root{
      --body-color:#fff; 
-     --nav-color:#f4f4f4;
-     --side-nav:#FFAA00;
+     --nav-color:#fff;
+     --side-nav:#;
      --text-color: #502314;
      --search-bar:#f2f2f2;
      --search-text: #502314;   
@@ -39,6 +56,8 @@ nav {
     z-index: 100;
 }
 
+
+
 nav .nav-bar {
     position: relative;
     height: 100%;
@@ -65,6 +84,11 @@ nav .nav-bar .logo a {
     font-weight: 500;
     color: var(--text-color);
     text-decoration: none;
+}
+
+img.navLogo {
+    max-width: 75%;
+    height: auto;
 }
 
 .menu .logo-toggle {
@@ -284,4 +308,15 @@ body.dark .search-field i{
     }
 
 
+}
+
+/** nav end **/
+
+.groenbaggrund {
+    display: block;
+    margin-top: 100px;
+    background-color: #198737;
+    height: 675px;
+    width: 100%;
+    padding-top: 100px;
 }
