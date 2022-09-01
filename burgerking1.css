@@ -388,3 +388,86 @@ button.sevoresmenu:hover {
     color: #020301;
     cursor: pointer;
 }
+
+/*a*/
+
+.favoritter {
+    padding-top: 80px;
+    color: var(--text-color);
+    font-family: "flame-bold";
+}
+
+.voresfavoritter {
+    font-size: 45px;
+    text-align: center;
+    height: 550px;
+}
+
+.krow {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: -500px;
+    margin-bottom: 150px;
+}
+
+.krow-child {
+    padding: 40px 40px;
+}
+
+.favoritbilleder {
+    height: 150px;
+    background-size: 400px;
+}
+
+.titler {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.lokaleburgerking {
+    background-color: #d62300;
+    height: 500px;
+    padding: 100px;
+    font-family: "flame-bold";
+}
+
+.findburgerking {
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-left: -200px;
+}
+
+.sundae {
+    float: left;
+    margin-top: -110px;
+    margin-left: -9%;
+    height: 510px;
+}
+
+.lokation {
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: #d62300;
+    border: none;
+}
+
+footer {
+    height: 180px;
+    padding: 50px;
+}
+
+.section1 {
+    height: 600px;
+    background-color: #f5ebdc;
+    margin-top: 110px;
+}
