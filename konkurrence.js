@@ -5,9 +5,42 @@ const   body = document.querySelector("body"),
         sidebarOpen = document.querySelector(".sidebarOpen"),
         sidebarClose = document.querySelector(".sidebarClose");
 
-		let getMode = localStorage.getItem("mode");
+        let getMode = localStorage.getItem("mode");
             if(getMode && getMode === "dark-mode")
                 body.classList.add("dark");
+        
+
+// Js code to toggle dark and light mode
+        modeToggle.addEventListener("click" , () => {
+            modeToggle.classList.toggle("active");
+            body.classList.toggle("dark");
+
+
+//Js code to keep user selected mode even page refresh or file reopen
+            if(!body.classList.contains("dark")){
+                localStorage.setItem("mode" , "light-mode");
+            }else{
+                localStorage.setItem("mode" , "dark-mode");
+            }
+        });
+
+// Js code to toggle search box
+        searchToggle.addEventListener("click" , () => {
+            searchToggle.classList.toggle("active");
+        });
+
+
+// Js code to toggle sidebar
+        sidebarOpen.addEventListener("click" , () =>{
+                nav.classList.add("active");
+        });
+
+        body.addEventListener("click" , e =>{
+            let clickedElm = e.target;
+            
+            if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu"))
+                nav.classList.remove("active"); 
+        });
 
 var memory_array = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
 var memory_values = [];
