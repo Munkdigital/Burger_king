@@ -1,3 +1,16 @@
+const   body = document.querySelector("body"),
+        nav = document.querySelector("nav"),
+        modeToggle = document.querySelector(".dark-light"),
+        searchToggle = document.querySelector(".searchToggle"),
+        sidebarOpen = document.querySelector(".sidebarOpen"),
+        sidebarClose = document.querySelector(".sidebarClose");
+
+		let getMode = localStorage.getItem("mode");
+            if(getMode && getMode === "dark-mode")
+                body.classList.add("dark");
+		
+
+
 var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
 var questions = [
     [ "Hvilken kød har Whopper?", "Kylling", "Oksekød", "Svinekød", "B" ],

@@ -11,32 +11,53 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <header>
-      <i class="fa-solid fa-lock"></i>
-      <p class="logind">Log ind</p>
-    </header>
     <nav>
-      <ul>
-        <a href="#"
-          ><img class="logo1" src="header-logo.svg" alt="burgerking logo"
-        /></a>
-        <li><a class="active1" href="#">Home</a></li>
-        <li><a href="" target="_self">Menu</a></li>
-        <li><a href="" target="_self">Restauranter</a></li>
-        <li><a href="" target="_self">Kuponer</a></li>
-        <li><a href="" target="_self">Kampagner</a></li>
-        <li><a href="" target="_self">Karriere</a></li>
-        <li><a href="" target="_self">Delivery</a></li>
-        <li><a href="" target="_self">Om os</a></li>
-        <li><a href="konkurrence.html" target="_self">Konkurrence</a></li>
-
-        <li>
-          <a href="" target="_self"></a
-          ><button class="findrestaurant">Find Restaurant</button>
-        </li>
-      </ul>
     
-    </nav>
+      <div class="nav-bar">
+          
+          <i class="bx bx-menu sidebarOpen"></i>
+          <img class="logo navLogo" src="header-logo.svg"><a href="#"></a></img>
+
+          <div class="menu">
+              <div class="logo-toggle">
+                  <img src="header-logo.svg" class="logo"><a href="#"></a></img>
+                  <i class="bx bx-x sidebarClose"></i>
+              </div>
+
+             <ul class="nav-links">
+                  <li><a class="active1" href="#">Home</a></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Restaurant</a></li>
+                  <li><a href="#">Kuponer</a></li>
+                  <li><a href="#">Kampagner</a></li>
+                  <li><a href="#">Karriere</a></li>
+                  <li><a href="#">Delivery</a></li>
+                  <li><a href="#">Om os</a></li>
+                  <li><a href="konkurrence.html" target="_self">Konkurrence</a></li>
+              </ul>
+          </div>
+
+          <div class="darkLight-searchBox">
+              <div class="dark-light">
+                  <i class="bx bx-moon moon"></i>
+                  <i class="bx bx-sun sun"></i>
+              </div>
+
+              <div class="searchBox">
+                  <div class="searchToggle">
+                  <i class="bx bx-x cancel"></i>
+                  <i class="bx bx-search search"></i>
+                  </div>
+                  <div class="search-field">
+                      <input type="text" placeholder="Find Restaurant..."
+                      <i class="bx bx-search search"></i>
+                  </div>
+
+                  
+              </div>
+          </div>
+      </div>
+ </nav> 
     <section class="groenbaggrund">
       <img src="bk_slideshow/burger1.jpg" id="picss"></span>
       <script src="burgerking.js"></script> <!--script src ska også stå i bodyen for at det virker her ¯\_(ツ)_/¯-->
