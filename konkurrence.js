@@ -206,7 +206,7 @@ function createDummyData() {
           data[date.getFullYear() + i][j + 1][l].push({
             startTime: "10:00",
             endTime: "12:00",
-            text: "Some Event Here"
+            text: "Vi elsker javscript huyrra"
           });
         }
       }
