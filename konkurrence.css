@@ -345,7 +345,7 @@ div#memory_board{
 div#memory_board > div{
 	background: url("header-logo.svg") no-repeat;
 	border:#000 1px solid;
-	width: 105px;px;
+	width: 105px;
 	height:105px;
 	float:left;
 	margin:10px;
