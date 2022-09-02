@@ -1,4 +1,5 @@
 
+
 var picss_i = 0;
 var picss_main = document.getElementById('picss')
 var picss_array = ["bk_slideshow/burger1.png","bk_slideshow/burger2.png","bk_slideshow/burger3.png","bk_slideshow/burger4.png"];
@@ -20,3 +21,4 @@ function picssSlide () {
     setTimeout('picssNext()',3000);
 }
 picss_elem = document.getElementById("picss"); picssSlide();
+

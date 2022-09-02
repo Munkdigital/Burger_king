@@ -42,10 +42,10 @@ const   body = document.querySelector("body"),
                 nav.classList.remove("active"); 
         });
 
-        var picss_i = 0;
-        var picss_main = document.getElementById('picss')
-        var picss_array = ["bk_slideshow/burger1.png","bk_slideshow/burger2.png","bk_slideshow/burger3.png","bk_slideshow/burger4.png"];
-        var picss_elem;
+var picss_i = 0;
+var picss_main = document.getElementById('picss')
+var picss_array = ["bk_slideshow/burger1.png","bk_slideshow/burger2.png","bk_slideshow/burger3.png","bk_slideshow/burger4.png"];
+var picss_elem;
         
         function picssNext() {
             picss_main.setAttribute("src",picss_array[picss_i])
