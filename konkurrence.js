@@ -5,9 +5,42 @@ const   body = document.querySelector("body"),
         sidebarOpen = document.querySelector(".sidebarOpen"),
         sidebarClose = document.querySelector(".sidebarClose");
 
-		let getMode = localStorage.getItem("mode");
+        let getMode = localStorage.getItem("mode");
             if(getMode && getMode === "dark-mode")
                 body.classList.add("dark");
+        
+
+// Js code to toggle dark and light mode
+        modeToggle.addEventListener("click" , () => {
+            modeToggle.classList.toggle("active");
+            body.classList.toggle("dark");
+
+
+//Js code to keep user selected mode even page refresh or file reopen
+            if(!body.classList.contains("dark")){
+                localStorage.setItem("mode" , "light-mode");
+            }else{
+                localStorage.setItem("mode" , "dark-mode");
+            }
+        });
+
+// Js code to toggle search box
+        searchToggle.addEventListener("click" , () => {
+            searchToggle.classList.toggle("active");
+        });
+
+
+// Js code to toggle sidebar
+        sidebarOpen.addEventListener("click" , () =>{
+                nav.classList.add("active");
+        });
+
+        body.addEventListener("click" , e =>{
+            let clickedElm = e.target;
+            
+            if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu"))
+                nav.classList.remove("active"); 
+        });
 
 var memory_array = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
 var memory_values = [];
@@ -86,7 +119,7 @@ function _(x){
 function renderQuestion(){
 	test = _("test");
 	if(pos >= questions.length){
-		test.innerHTML = "<h2>DU FIK "+correct+" AF "+questions.length+" RIGTIGT WHOOOOOOOOOOOOOO!!!!!!! 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔</h2>";
+		test.innerHTML = "<h2>DU FIK "+correct+" AF "+questions.length+" RIGTIGT WHOOOOOOHOOOOOOOO!!!!!!! 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔</h2>";
 		_("test_status").innerHTML = "RESULTAT:";
 		pos = 0;
 		correct = 0;
@@ -146,7 +179,68 @@ window.addEventListener("load", renderQuestion, false);
 // ---------------------------------------------------------------------------------------------------------------------------------------- Keanu
 
 
+"use strict";
 
+// function that creates dummy data for demonstration
+function createDummyData() {
+  var date = new Date();
+  var data = {};
+
+  for (var i = 0; i < 10; i++) {
+    data[date.getFullYear() + i] = {};
+
+    for (var j = 0; j < 12; j++) {
+      data[date.getFullYear() + i][j + 1] = {};
+
+      for (var k = 0; k < Math.ceil(Math.random() * 10); k++) {
+        var l = Math.ceil(Math.random() * 28);
+
+        try {
+          data[date.getFullYear() + i][j + 1][l].push({
+            startTime: "10:00",
+            endTime: "12:00",
+            text: "Some Event Here"
+          });
+        } catch (e) {
+          data[date.getFullYear() + i][j + 1][l] = [];
+          data[date.getFullYear() + i][j + 1][l].push({
+            startTime: "10:00",
+            endTime: "12:00",
+            text: "Vi elsker javscript huyrra"
+          });
+        }
+      }
+    }
+  }
+
+  return data;
+}
+
+// creating the dummy static data
+var data = createDummyData();
+
+// initializing a new calendar object, that will use an html container to create itself
+var calendar = new Calendar(
+  "calendarContainer", // id of html container for calendar
+  "small", // size of calendar, can be small | medium | large
+  [
+    "Wednesday", // left most day of calendar labels
+    3 // maximum length of the calendar labels
+  ],
+  [
+    "#E91E63", // primary color
+    "#C2185B", // primary dark color
+    "#FFFFFF", // text color
+    "#F8BBD0" // text dark color
+  ]
+);
+
+// initializing a new organizer object, that will use an html container to create itself
+var organizer = new Organizer(
+  "organizerContainer", // id of html container for calendar
+  calendar, // defining the calendar that the organizer is related to
+  data // giving the organizer the static data that should be displayed
+);
 
 
 
