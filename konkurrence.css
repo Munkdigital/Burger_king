@@ -329,6 +329,7 @@ footer {
   height: 600px;
   background-color: #f5ebdc;
   margin-top: 110px;
+  padding-top: 30px;
 }
 
 /* Memory board */
@@ -344,8 +345,8 @@ div#memory_board{
 div#memory_board > div{
 	background: url("header-logo.svg") no-repeat;
 	border:#000 1px solid;
-	width:71px;
-	height:71px;
+	width: 105px;px;
+	height:105px;
 	float:left;
 	margin:10px;
 	padding:20px;
