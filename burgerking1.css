@@ -399,6 +399,7 @@ body.dark .search-field i{
     font-size: 45px;
     text-align: center;
     height: 550px;
+    font-family: "flame-bold";
 }
 
 .krow {
@@ -438,6 +439,7 @@ body.dark .search-field i{
     font-size: 50px;
     padding-top: 50px;
     margin-left: -200px;
+    font-family: "flame-bold";
 }
 
 .sundae {

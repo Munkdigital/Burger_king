@@ -42,7 +42,7 @@ const   body = document.querySelector("body"),
                 nav.classList.remove("active"); 
         });
 
-var memory_array = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
+var memory_array = ['Salsa Crispy Chicken','Salsa Crispy Chicken','Double Whopper','Double Whopper','Bacon King Jr','Bacon King Jr','Chili Cheeseburger','Chili Cheeseburger','Chimichurri Chicken Royale','Chimichurri Chicken Royale','Chicken Nuggets','Chicken Nuggets','Fish King','Fish King','Creamy Oreo Shake','Creamy Oreo Shake','Sundae Jordbær','Sundae Jordbær','Onion Rings','Onion Rings','Chili Cheese','Chili Cheese','Twister Fries','Twister Fries'];
 var memory_values = [];
 var memory_tile_ids = [];
 var tiles_flipped = 0;
