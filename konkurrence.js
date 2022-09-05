@@ -43,7 +43,7 @@ const   body = document.querySelector("body"),
         });
 
 
-var memory_array = ['crispychickensalsa1.png','crispychickensalsa1.png','doublewhopper.png','doublewhopper.png','baconkingjr.png','baconkingjr.png','chilicheeseburger.png','chilicheeseburger.png','chimichurrichicken.png','chimichurrichicken.png','Chicken Nuggets','Chicken Nuggets','Fish King','Fish King','Creamy Oreo Shake','Creamy Oreo Shake','Sundae Jordbær','Sundae Jordbær','Onion Rings','Onion Rings','Chili Cheese','Chili Cheese','Twister Fries','Twister Fries'];
+var memory_array = ['crispychickensalsa1.png','crispychickensalsa1.png','doublewhopper.png','doublewhopper.png','baconkingjr.png','baconkingjr.png','chilicheeseburger.png','chilicheeseburger.png','chimichurrichicken.png','chimichurrichicken.png','nuggets.png','nuggets.png','fishking.png','fishking.png','oreoshake.png','oreoshake.png','sundae1png','sundae1.png','onionrings.png','onionrings.png','chilicheese.png','chilicheese.png','twister.png','twister.png'];
 var memory_values = [];
 var memory_tile_ids = [];
 var tiles_flipped = 0;
