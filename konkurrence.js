@@ -103,6 +103,8 @@ function memoryFlipTile(tile,val){
 		}
 	}
 }
+
+
 		
 newBoard();
 

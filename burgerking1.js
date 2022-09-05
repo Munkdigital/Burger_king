@@ -42,6 +42,19 @@ const   body = document.querySelector("body"),
                 nav.classList.remove("active"); 
         });
 
+var ba = ["Chrome","Firefox","Safari","Opera","MSIE","Trident","Edge"];
+var b, ua = navigator.userAgent;
+    for(var i=0; i < ba.length; i++){
+        if( ua.indexOf(ba[i]) > -1 ){
+        b = ba[i];
+        break;
+        }
+    }
+    if(b == "MSIE" || b == "Trident" || b == "Edge"){
+        b = "Internet Explorer";
+    }
+alert("You are using " + b + " browser");
+
 var picss_i = 0;
 var picss_main = document.getElementById('picss')
 var picss_array = ["bk_slideshow/burger1.png","bk_slideshow/burger2.png","bk_slideshow/burger3.png","bk_slideshow/burger4.png"];
