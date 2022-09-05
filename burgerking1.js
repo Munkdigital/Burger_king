@@ -53,7 +53,7 @@ var b, ua = navigator.userAgent;
     if(b == "MSIE" || b == "Trident" || b == "Edge"){
         b = "Internet Explorer";
     }
-alert("You are using " + b + " browser");
+/*alert("You are using " + b + " browser"); */
 
 var picss_i = 0;
 var picss_main = document.getElementById('picss')
