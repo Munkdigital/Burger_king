@@ -82,7 +82,7 @@ function memoryFlipTile(tile,val){
             	memory_tile_ids = [];
 				// Check to see if the whole board is cleared
 				if(tiles_flipped == memory_array.length){
-					alert("Board cleared... generating new board");
+					alert("Vendespillet er gennemført juhuu! Du har vundet en gratis Whopper");
 					document.getElementById('memory_board').innerHTML = "";
 					newBoard();
 				}
