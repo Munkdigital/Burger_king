@@ -338,7 +338,7 @@ div#memory_board {
   padding: 24px;
   margin: 0px auto;
 }
-<<<<<<< HEAD
+
 div#memory_board > div {
   background: url("header-logo.svg") no-repeat;
   border: #000 2px solid;
@@ -346,28 +346,9 @@ div#memory_board > div {
   height: 103px;
   float: left;
   margin: 10px;
-  padding: 10px;
   font-size: 18px;
   cursor: pointer;
   text-align: center;
-  font-family: "flame-sans";
-=======
-div#memory_board > div{
-	background: url("header-logo.svg") no-repeat;
-	border:#000 2px solid;
-	width: 103px;
-	height:103px;
-	float:left;
-	margin:10px;
-	padding: 10px;
-	font-size:18px;
-	cursor:pointer;
-	text-align:center;
-<<<<<<< HEAD
->>>>>>> 1615079735c9241c9f846e953805c2ee79467acd
-=======
-  font-family: "flame-sans";
->>>>>>> parent of 1615079 (Merge branch 'main' of https://github.com/Munkdigital/Burger_king)
 }
 
 /* QUIZ */
