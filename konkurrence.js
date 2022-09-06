@@ -122,7 +122,7 @@ function _(x){
 function renderQuestion(){
 	test = _("test");
 	if(pos >= questions.length){
-		test.innerHTML = "<h2>DU FIK "+correct+" AF "+questions.length+" RIGTIGT WHOOOOOOHOOOOOOOO!!!!!!! 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔</h2>";
+		test.innerHTML = "<h2>DU FIK "+correct+" AF "+questions.length+" RIGTIGT WHOOOOOOHOOOOOOOO!!!!!!! 🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔</h2>";
 		_("test_status").innerHTML = "RESULTAT:";
 		pos = 0;
 		correct = 0;
