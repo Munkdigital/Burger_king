@@ -137,7 +137,7 @@ function renderQuestion(){
 	test.innerHTML += "<input type='radio' name='choices' value='A'> "+chA+"<br>";
 	test.innerHTML += "<input type='radio' name='choices' value='B'> "+chB+"<br>";
 	test.innerHTML += "<input type='radio' name='choices' value='C'> "+chC+"<br><br>";
-	test.innerHTML += "<button onclick='checkAnswer()'>  -Svar-  </button>";
+	test.innerHTML += "<button onclick='checkAnswer()'>  - Svar -  </button>";
 }
 function checkAnswer(){
 	choices = document.getElementsByName("choices");
